@@ -1,0 +1,28 @@
+{
+  "name": "ngMaxLength",
+  "homepage": "https://github.com/FabianMeul/ngMaxLength",
+  "authors": [
+    "Fabian Meul"
+  ],
+  "version": "1.0.0",
+  "description": "Display the remaining characters of an Angular input field.",
+  "main": [
+      "dist/ng-max-length.min.js"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "max-length"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.x"
+  }
+}
