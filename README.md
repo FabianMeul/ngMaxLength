@@ -2,9 +2,9 @@
 Display the remaining characters of an Angular input field.
 
 
-### Angular Character Limit
+### Angular Max Length
 
-This directive extend the existing ng-max-length directive to expose `remainingChars` on the current field scope.
+This directive extends the existing ng-max-length directive to expose `remainingChars` on the current field scope.
 
 #### Usage
 
