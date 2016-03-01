@@ -23,8 +23,3 @@ You need to include the ```ng-max-length.js``` file.
 #### Requirements
 
 * AngularJs (Tested against 1.5.0)
-
-#### Todo
-
-* Remove dependency on jQuery
-* Remove assumption on Bootstrap
