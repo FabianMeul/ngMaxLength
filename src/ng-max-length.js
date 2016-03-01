@@ -22,7 +22,8 @@
                             return;
                         }
 
-                        modelWatcher = $scope.$watch('model', function (nv, ov) {
+                        // Watch $scope.ngModel for changes
+                        modelWatcher = $scope.$watch('ngModel', function (nv, ov) {
                             if (nv) {
                                 $scope.remainingChars = parseInt(attrs.ngMaxlength) - nv.length;
                             } else {
